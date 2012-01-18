@@ -343,11 +343,7 @@
 						<!-- UPDATES -->
 						
 						<div class="sidebar">
-							<h2>Team in Training (Summer 2011)</h2>
-							<p>I'm fundraising for the Leukemia and Lymphoma society with Team in Training. 
-								I'll be running-biking-swimming the Santa Cruz Big Kahuna Half-ironman.</p>
-							<p><a href="http://pages.teamintraining.org/sf/bigktri11/ckwilcox">Donate to the cause! </a></p>
-							
+
 						</div>
 						
 						<!-- END UPDATES -->
