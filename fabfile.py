@@ -3,6 +3,8 @@ from fabric.api import local, abort, run, cd, env
 from fabric.api import settings as fabsettings
 from fabric.contrib.console import confirm
 
+env.hosts = ['rlunch@rlunch.webfactional.com']
+
 def wfdeploy(branch='master'):
     local('git add -p')
     with fabsettings(warn_only=True):
