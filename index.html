@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Chris Wilcox</title>
+    <style>
+	body {
+		margin:0;
+	}
+	.content {
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+	}
+    .cover-page {
+		padding:0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position:relative;
+        width:100%;
+        min-height:600px;
+    }
+    .cover-page.sunshine {
+        background: url(images/sunshine.jpg) no-repeat center center fixed;
+    }
+    .cover-page.snow {
+        background: url(images/snow.jpg) no-repeat center center fixed;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="cover-page sunshine"></div>
+        <div class="cover-page snow"></div>
+    </div>
+</body>
+</html>
