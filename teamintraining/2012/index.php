@@ -143,7 +143,7 @@
         
         
         <p>If you've heard enough donate; otherwise continue reading.</p>
-        <form id="ProcessDonation" name="ProcessDonation" action="http://pages.teamintraining.org//ProcessDonation" target="formTarget1330677525075" method="post">
+        <form id="ProcessDonation" name="ProcessDonation" action="http://pages.teamintraining.org/ProcessDonation" target="formTarget1330677525075" method="get">
             <!-- input type="radio" value="0" alt="Other" id="donateAmountId" name="donateAmount" class="Radio_Group">&nbsp;Other $ 
             <input type="text" alt="OtherAmount" name="enteredAmount" class="otherfieldcell" maxlength="15"><br -->
             <input type="hidden" name="fundraiserPageID" value="855574" id="ProcessDonation_fundraiserPageID">
@@ -172,7 +172,7 @@
 		
 		
         <p>Thanks for reading. Please donate. Any amount helps!</p>
-        <form id="ProcessDonation" name="ProcessDonation" action="http://pages.teamintraining.org//ProcessDonation" target="formTarget1330677525075" method="post">
+        <form id="ProcessDonation" name="ProcessDonation" action="http://pages.teamintraining.org/ProcessDonation" target="formTarget1330677525075" method="get">
             <!-- input type="radio" value="0" alt="Other" id="donateAmountId" name="donateAmount" class="Radio_Group">&nbsp;Other $ 
             <input type="text" alt="OtherAmount" name="enteredAmount" class="otherfieldcell" maxlength="15"><br -->
             <input type="hidden" name="fundraiserPageID" value="855574" id="ProcessDonation_fundraiserPageID">
