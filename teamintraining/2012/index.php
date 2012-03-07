@@ -128,7 +128,7 @@
 		<div>
 			<p>I've raised <span class="raised-text">?</span> of my goal of $2650.</p>
 			<div class="progress-bar"></div>
-			<p>I've got until April 5th to do it.</p>
+			<p>I've got until May 5th to do it.</p>
 		</div>
         
         <img class="sep" src="arrow_down.png" />
