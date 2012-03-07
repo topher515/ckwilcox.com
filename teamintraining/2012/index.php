@@ -74,6 +74,17 @@
       font-size: 20px;
       cursor:pointer;
     }
+
+    .donators {
+        max-width:80%;
+        border:10px white solid;
+        margin:10px;
+        outline:1px #ccc solid;
+		display:inline-block;
+		background-color:white;
+		text-align:right;
+    }
+	
     .tnt-images img {
         max-width:80%;
         border:10px white solid;
@@ -98,6 +109,9 @@
 		text-align:left;
 		max-width:400px;
 		display:inline-block;
+	}
+	ul {
+		list-style-type:none;
 	}
     
     </style>
@@ -175,6 +189,10 @@
         
     <div class="r-content">    
         
+		<ul class=donators>
+			
+		</ul>
+		
         <div class="tnt-images">
             <img src="bk_bike.jpeg" alt="Bk Bike">
             <div class="sep"></div>
@@ -201,9 +219,16 @@
 	$(function() {
 		var raiseMax = 2650;
 		$('.progress-bar').progressbar({value:0}).progressbar('disable')
-		$.get('get_raised.php',function(data) {
-			$('.raised-text').html('$'+data)
-			$('.progress-bar').progressbar('value',parseInt(parseFloat(data)/raiseMax*100)).progressbar('enable')
+		$('.donators').hide()
+		$.getJSON('scrape.php',function(data) {
+			$('.raised-text').html('$'+data.raised)
+			$('.progress-bar').progressbar('value',parseInt(parseFloat(data.raised)/raiseMax*100)).progressbar('enable')
+			donators = []
+			for (var i in data.thanks) {
+				donators.push(['<li><span class="nameThanks">',data.thanks[i].name,'</span>&bull;',
+					'<span class="fundsThanks">$',data.thanks[i].funds,'</span></li>'].join(''))
+			}
+			$('.donators').append(donators.join('\n')).slideDown()
 		})
 	})
 	</script>
