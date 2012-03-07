@@ -1,18 +1,34 @@
 <html>
 <head>
     <title>Donate to Leukemia &amp; Lymphoma Society | Chris Wilcox</title>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='jquery-ui-1.8.18.custom.css' rel='stylesheet' type='text/css'>
     <style>
     body {
         margin:0;
         background-color:rgb(231,235,242);
+        font-family: 'Josefin Sans', sans-serif;
     }
+    a, a:visited { 
+        color:rgb(122,80,153);
+    }
+	.progress-bar {
+		height:1.5em;
+		display:inline-block;
+		width:350px;
+	}
     .l-content {
         width:55%;
-        top:200px;
+        top:170px;
         position:absolute;
-        left:0;
+        left:20px;
         text-align:center;
-    }
+        
+        font-size:15px;
+        }
+        .l-content .sep {
+            margin:25px;
+        }
     .r-content {
         text-align:center;
         right:0;
@@ -33,11 +49,10 @@
         z-index:-1;
     }
     .last-year {
-        position:absolute;
-        top:150px;
-        right:35%;
+        position:fixed;
+        bottom:0;
+        right:0;
         z-index:100;
-        width:280px;
     }
     .btn-lls {
       background-color: hsl(274, 31%, 46%) !important;
@@ -73,15 +88,47 @@
         margin:auto;
         outline:1px #ccc solid;
     }
+    .small {
+        font-size:.9em;
+        width:300px;
+        display:inline-block;
+        margin:2px;
+    }
+	.simple {
+		text-align:left;
+		max-width:400px;
+		display:inline-block;
+	}
     
     </style>
 </head>
 <body>
     <div class="title"></div>
     
-    <img class="last-year" src="last_year.png" />
+    <img class="last-year" src="last_year_grad_2.png" />
         
     <div class="l-content">
+        
+        <h1>Hi. My name is Chris. I'm raising money to fight Leukemia &amp; Lymphoma.</h1>
+		
+		<div>
+			<p>I've raised <span class="raised-text">?</span> of my goal of $2650.</p>
+			<div class="progress-bar"></div>
+			<p>I've got until April 5th to do it.</p>
+		</div>
+        
+        <img class="sep" src="arrow_down.png" />
+		
+        
+        <h4>I'll be running/swimming/biking the <a href="http://www.tricalifornia.com/index.cfm/WildFlower2012-main.htm">2012 Wildflower Triathlon</a></h4>
+        <h4>with my coaches and teammates at <a href="http://www.teamintraining.org/sf/">Team in Training</a></h4>
+        <h4>to raise money for the <a href="http://www.lls.org/">Leukemia &amp; Lymphoma Society</a>.</h4>
+        
+        
+        <img class="sep" src="arrow_down.png" />
+        
+        
+        <p>If you've heard enough donate; otherwise continue reading.</p>
         <form id="ProcessDonation" name="ProcessDonation" action="http://pages.teamintraining.org//ProcessDonation" target="formTarget1330677525075" method="post">
             <!-- input type="radio" value="0" alt="Other" id="donateAmountId" name="donateAmount" class="Radio_Group">&nbsp;Other $ 
             <input type="text" alt="OtherAmount" name="enteredAmount" class="otherfieldcell" maxlength="15"><br -->
@@ -89,10 +136,41 @@
             <input type="hidden" name="participantFirstName" value="Chris" id="ProcessDonation_participantFirstName">
             <input type="hidden" name="participantLastName" value="Wilcox" id="ProcessDonation_participantLastName">
             <input type="hidden" name="displayNameURL" value="Chris+Wilcox" id="ProcessDonation_displayNameURL">
-            <input type="submit" id="ProcessDonation_0"  class="btn-lls registerButton submit" value="Donate to LLS" />
-            <p>You'll be taken to the Leukemia &amp; Lymphomia Society's Official Donation page</p>
+            <input type="submit" id="ProcessDonation_0"  class="btn-lls registerButton submit" value="Donate" />
         </form>
-        
+		<div>
+        <p class="small"><em>This takes you to the Official Leukemia &amp; Lymphomia Society's Donation page</em></p>
+        </div>
+		
+        <img class="sep" src="arrow_down.png" />
+		
+		<div>
+		<div class="simple">
+		<p>The Leukemia and Lymphoma Society (LLS) raises money for blood and bone cancer research. They're one of the good guys&#8212;<a href="http://www.charitynavigator.org/index.cfm?bay=search.summary&orgid=3993">check out their stats on Charity Navigator</a>.</p>
+		<p>Their main mission is to fund research for new treatments and make clinical trials more accessible to all patients. In recent years they've helped develop drugs which help accelerate recovery after chemotherapy as well as therapies which are more selective at targeting cancer cells. <a href="http://www.lls.org/#/aboutlls/researchsuccesses/">See their research successes</a>.</p>
+		<p>Almost every practice we have "Honorees" come and speak with us about treatments they've had which have saved their lives, all of which have been made possible&#8212;at least in part&#8212;by funding from LLS.</p>
+		<p>By the way this is my <a href="http://pages.teamintraining.org/sf/wildtri12/ckwilcox">official Team In Training Fundraising Page</a>, it's not as pretty as this one, but you can check it out.</p>
+		</div>
+		</div>
+		
+		
+        <img class="sep" src="arrow_down.png" />
+		
+		
+        <p>Thanks for reading. Please donate. Any amount helps!</p>
+        <form id="ProcessDonation" name="ProcessDonation" action="http://pages.teamintraining.org//ProcessDonation" target="formTarget1330677525075" method="post">
+            <!-- input type="radio" value="0" alt="Other" id="donateAmountId" name="donateAmount" class="Radio_Group">&nbsp;Other $ 
+            <input type="text" alt="OtherAmount" name="enteredAmount" class="otherfieldcell" maxlength="15"><br -->
+            <input type="hidden" name="fundraiserPageID" value="855574" id="ProcessDonation_fundraiserPageID">
+            <input type="hidden" name="participantFirstName" value="Chris" id="ProcessDonation_participantFirstName">
+            <input type="hidden" name="participantLastName" value="Wilcox" id="ProcessDonation_participantLastName">
+            <input type="hidden" name="displayNameURL" value="Chris+Wilcox" id="ProcessDonation_displayNameURL">
+            <input type="submit" id="ProcessDonation_0"  class="btn-lls registerButton submit" value="Donate" />
+        </form>
+		<div>
+        <p class="small"><em>This takes you to the Official Leukemia &amp; Lymphomia Society's Donation page</em></p>
+        </div>
+		
     </div>
         
     <div class="r-content">    
@@ -117,5 +195,19 @@
                 
     </div>
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	$(function() {
+		var raiseMax = 2650;
+		$('.progress-bar').progressbar({value:0}).progressbar('disable')
+		$.get('get_raised.php',function(data) {
+			$('.raised-text').html('$'+data)
+			$('.progress-bar').progressbar('value',parseInt(parseFloat(data)/raiseMax*100)).progressbar('enable')
+		})
+	})
+	</script>
+
 </body>
+
 </html>
