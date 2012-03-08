@@ -23,10 +23,10 @@ $(document).ready(function() {
 	setupAnchor();
 	setupScroller();
 	setupMenu();
-	setupWork();
-	setupLife();
-	setupNetworks();
-	setupContact();
+	//setupWork();
+	//setupLife();
+	//setupNetworks();
+	//setupContact();
 	loadCufon();
 	//Check if browser resizes
 	$(window).resize(function() {
