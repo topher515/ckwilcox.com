@@ -1,6 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<!--
+		
+		Well... this is embarrassing...
+		
+		
+		Hello, source-viewer, please realize that most of this isn't my code. This is 
+		some template I got off themeforest thinking it would make the basic design of a 
+		site *at least* sort of easier. Little did I realize the shocking amount of 
+		cruft that would be left over once I macheted away all the useless junk the theme
+		maker left in.
+		
+		Anyway, don't judge me for this god-awful mess.
+		
+		
+		-->
 		<title>Chris Wilcox | The Most Interesting Man in the World</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -130,171 +145,6 @@
 	<body>
 		
 	<div id="mask"></div>
-	
-	<!-- Work windows -->
-	<div class="window" id="chatsockets">
-		<h1>HTML5 Websockets Chat (2011)</h1>
-		<div class="window-content">
-			<img src="images/work/chatsockets.jpg">
-			<div class="overlay">
-				<p>A websockets experiment--instantaneous browser to browser chatting via websockets.</p>
-				<ul>
-					<li>Primary language: Javascript</li>
-					<li>Chat system front/backend comm: Websockets via Socket.io</li>
-					<li>Server: Node.js</li>
-					<li><a href="https://github.com/topher515/chatsockets">https://github.com/topher515/chatsockets</a></li>
-				</ul>
-			</div>
-		</div>
-
-	</div>
-	
-	<div class="window" id="lightwall">
-		<h1>Multithreaded realtime LED driver (2011)</h1>
-		<div class="window-content">
-			<img src="images/work/lightwall.jpg">
-			<div class="overlay">
-				<p>My buddy Andy built an LED lightwall, I built a driver for it in Python. It's not really the Snake game that you see in the Video which is particularly interesting, but the framework that enabled the game to be created easily.</p>
-				<ul>
-					<li>Primary driver language: Python</li>
-					<li>Hardware Interface: DMX via Arduino via MAX/MSP</li>
-					<li>Python--MAX/MSP interface: TCP/IP</li>
-					<li><a href="http://vimeo.com/19761386" >http://vimeo.com/19761386</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="ecommerce">
-		<h1>RowApparel.com (2011)</h1>
-		<div class="window-content">
-			<img src="images/work/ecommerce.jpg">
-			<div class="overlay">
-				<p>An eCommerce application for presenting an apparel customization broker's vendor's
-					catalog in a simple to search and view format.</p>
-				<ul>
-					<li>Primary languages: Python/Javascript</li>
-					<li>Web framework: Django</li>
-					<li>eCommerce framework: Satchmo</li>
-					<li>DB: MySQL</li>
-					<li>Hosting: Webfaction</li>
-					<li><a href="http://rowapparel.com">www.rowapparel.com</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="playground">
-		<h1>Experimental Java Physics/Collision Engine (2006) )</h1>
-		<div class="window-content">
-			<img src="images/work/playground.jpg">
-			<div class="overlay">
-				<ul>
-					<li>Engine: Written from the ground-up in Java</li>
-					<li>UI: Java Swing</li>
-					<li>IDE: Eclipse</li>
-					<li>Lesson learned: colliding arbitrary polygons is hard--but oh so rewarding.</li>
-					<li>Download: <a href="http://ckwilcox.com/playground/index.html">http://ckwilcox.com/playground/index.html</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="art">
-		<h1>Artist portfolio website (2008)</h1>
-		<div class="window-content">
-			<img src="images/work/art.jpg">
-			<div class="overlay">
-				<p>Artist's portfolio page and blog.</p>
-				<ul>
-					<li>Primary language: PHP</li>
-					<li>DB: MySQL</li>
-					<li>Designed in Photoshop</li>
-					<li><em>Site not longer available online</em></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="videochat">
-		<h1>Flash Videoconferencing (2008)</h1>
-		<div class="window-content">
-			<img src="images/work/videochat.jpg">
-			<div class="overlay">
-				<p>This was my UC Santa Barbara Capstone Project. Enable client-less video conferencing--just use your web browser. Flash client can connect to open source version of Flash Media Server for video and SIP servers so that other VoIP clients (including traditional handsets/mobiles) can participate.</p>
-				<ul>
-					<li>Flash Client built in Flex (Actionscript)</li>
-					<li>Video server backend built with Red5 open source Flash Media Server (Java)</li>
-					<li>Integrated Browser SIP Client for VoIP</li>
-					<li>Asterisk VoIP Server</li>
-					<li><a href="http://ckwilcox.com/connectrd/">Old Project Page</a></li>
-					<li><a href="http://www.youtube.com/user/connectrd/">http://www.youtube.com/user/connectrd/</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-		
-	<div class="window" id="counteur">
-		<h1>Fun with Google App Engine (2010)</h1>
-		
-		<div class="window-content">
-			<img src="images/work/counteur.jpg">
-			<div class="overlay">
-				<p>Used intelligent text parsing to keep track of *whatever* the user wants, however they want to input it--through the web interface, via email or text message. Used http://www.zeepmobile.com/ API for text messaging interface.</p>
-				<ul>
-					<li>Primary language: Python</li>
-					<li>Backend/DB: Google App Engine/GAE Datastore</li>
-					<li>SMS Gateway: Zeepmobile</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Life Windows -->
-	<div class="window" id="blognow">
-		<h1>iamwilcox.posterous.com</h1>
-		<div class="window-content">
-			<img src="images/life/goldengate.jpg">
-			<div class="overlay">
-				<p>Read whatever the latest thing I'm rambling about at <a href="http://iamwilcox.posterous.com">iamwilcox.posterous.com</a>.</p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="tnt2011">
-		<h1>Team in Training (2011)</h1>
-		<div class="window-content">
-			<img src="images/life/tnt.jpg">
-			<div class="overlay">
-				<p>Training for my first triathlon, the 2011 Big Kahuna Half Ironman in Santa Cruz, with Team in Training.</p>
-				<p>Help me fundraise! <a href="http://pages.teamintraining.org/sf/bigktri11/ckwilcox">Donate to the cause.</a></p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="biketour2010">
-		<h1>Touring the Pacific Coast (2010)</h1>
-		<div class="window-content">
-				<img src="images/life/highway1.jpg">	
-					<div class="overlay">
-				<p>The blog I kept while cycling down the US Pacific coast from Vancouver B.C. to Tiajuana, Mexico.</p>
-				<p><a href="http://roadtrippin.posterous.com/">http://roadtrippin.posterous.com/</a></p>
-			</div>
-		</div>
-	</div>
-	
-	<div class="window" id="marathon2010">
-		<h1>LA Marathon Training (2010)</h1>
-		<div class="window-content">
-			<img src="images/life/road.jpg">	
-				<div class="overlay">
-			<p>Tracking my progress training for the LA Marathon while traveling for work
-				through Massachusetts, Oregon and So. Cal.</p>
-			<p><a href="http://wilcoxmarathon.posterous.com">wilcoxmarathon.posterous.com</a></p>	
-			</div>
-		</div>
-	</div>
-		
 
 		
 	<!-- Wrapper -->
@@ -304,16 +154,8 @@
 			<div class="clearpx"></div>
 			<!-- Header -->
 			<div id="header">
-				<div class="profilepicture"><img src="images/vcard/profile.jpg" alt="profile"/></div>
 				<div id="logo">Chris Wilcox</div>
-				<ul id="menu">
-					<li class="active"><a href="#home">Home</a></li>
-					<li><a href="#life">Life</a></li>
-					<li><a href="#skills">Code</a></li>
-					<li><a href="#work" class="biggify">Projects</a></li>
-					<li><a href="#networks">Networks</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
+				
 			</div>
 			<!-- End Header -->
 			<hr/>
@@ -331,10 +173,48 @@
 					
 						<div class="main">
 							<div class="pagetitle">Chris Wilcox - Welcome</div>
-							<h1>Sup, G?</h1> 
-							<p><img src="images/vcard/welcome.jpg" style="width:200px;float:right" />Chris Wilcox is a computer guy in <a href="http://www.flickr.com/map?&fLat=37.763&fLon=-122.3965&zl=3">San Francisco</a>. He is <em>not</em> a <a href="http://www.google.com/search?q=how+tall+is+chris+wilcox">6'10"</a> <a href="http://www.nba.com/playerfile/chris_wilcox/">Detroit Pistons power forward</a>.</p>
-							<p>Chris spends <a href="http://stackoverflow.com/users/273637">inordinate amounts of time</a> <a href="http://github.com/topher515">programming in Pyt</a><a href="http://code.google.com/u/topher515/">hon and Javascript</a> and otherwise building websites. Sometimes people even pay him to do this!</p>
-							<p><a class="button" href="#contact">Contact me</a></p>
+							<h1>Howdy there.</h1> 
+							<p>Chris Wilcox is a computer guy in <a href="http://www.flickr.com/map?&fLat=37.763&fLon=-122.3965&zl=3">San Francisco</a>. He is <em>not</em> a <a href="http://www.google.com/search?q=how+tall+is+chris+wilcox">6'10"</a> <a href="http://www.nba.com/playerfile/chris_wilcox/">Detroit Pistons power forward</a>.</p>
+							
+							<h2 style="margin:25px 0 0 0;">Fork Chris:</h2>
+							<a href="http://www.github.com/topher515/">Chris on Github</a>
+							
+							
+							<h2 style="margin:25px 0 0 0;">Say hello and/or creepily stalk Chris:</h2>
+							<ul class="networks">
+								<li>
+									<a href="http://www.facebook.com/chriskwilcox/" target="_blank">
+										<span class="background"></span>
+										<span class="content">
+											<img src="images/networks/facebook.png" alt="facebook"/>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.twitter.com/chriskwilcox/" target="_blank">
+										<span class="background"></span>
+										<span class="content">
+											<img src="images/networks/twitter.png" alt="twitter"/>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="http://iamwilcox.posterous.com" target="_blank">
+										<span class="background"></span>
+										<span class="content">
+											<img src="images/networks/posterous.png" alt="posterous"/>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.linkedin.com/profile/view?id=50715891" target="_blank">
+										<span class="background"></span>
+										<span class="content">
+											<img src="images/networks/linkedin.png" alt="linkedin"/>
+										</span>
+									</a>
+								</li>
+							</ul>
 							
 							
 						
@@ -343,7 +223,7 @@
 						<!-- UPDATES -->
 						
 						<div class="sidebar">
-
+<img src="images/vcard/welcome.jpg" style="width:200px;float:right" />
 						</div>
 						
 						<!-- END UPDATES -->
@@ -405,68 +285,6 @@
 					</div>
 					<!-- End menu work -->
 					
-					<div id="menu_skills" class="contentitem">
-						<div class="pagetitle">Chris Wilcox - Skills</div>
-						<div class="main">
-						<h1>If this were an MMORPG, these would be my stats</h1>
-							<ul class="skills">
-								<li>
-									<span class="topic">Python</span>
-									<span class="stars">
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-									</span>
-									Python scripting, Django framework
-								</li>
-								
-								<li>
-									<span class="topic">Javascript</span>
-									<span class="stars">
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/stargrey.png" alt="star" width="16" height="16" />
-									</span>
-									jQuery, Node.js
-								</li>
-								<li>
-									<span class="topic">Html</span>
-									<span class="stars">
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/stargrey.png" alt="star" width="16" height="16" />
-									</span>
-									HTML 5 / xHtml
-								</li>
-								<li>
-									<span class="topic">Css</span>
-									<span class="stars">
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/star.png" alt="star" width="16" height="16" />
-										<img src="images/vcard/stargrey.png" alt="star" width="16" height="16" />
-									</span>
-									CSS 3
-								</li>
-							</ul>
-							
-						</div>
-						<div class="sidebar">
-							<h2>Code like you mean it</h2>
-							<ul>
-								<p class="nopadding"><a href="http://www.github.com/topher515/">Fork me on Github</a>!</p>
-								<p><a href="http://code.google.com/u/topher515@gmail.com/">Check out my Google Code page</a></p>
-							</ul>
-						</div>
-					</div>
-					
 					<!-- Menu Work -->
 					<div id="menu_work" class="contentitem">
 						<div class="pagetitle">Chris Wilcox - My Work</div>
@@ -475,7 +293,7 @@
 						
 
 						
-						<h1>Past projects</h1>
+						<h1>Code</h1>
 						<!-- work mask -->
 						<div id="workmask">
 							<div id="workscroller">
