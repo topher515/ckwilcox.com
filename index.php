@@ -183,7 +183,7 @@
 							<h2 style="margin:25px 0 0 0;">Say hello and/or creepily stalk Chris:</h2>
 							<ul class="networks">
 								<li>
-									<a href="http://www.facebook.com/chriskwilcox/" target="_blank">
+									<a href="http://www.facebook.com/ckwilcox/" target="_blank">
 										<span class="background"></span>
 										<span class="content">
 											<img src="images/networks/facebook.png" alt="facebook"/>
@@ -191,7 +191,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="http://www.twitter.com/chriskwilcox/" target="_blank">
+									<a href="http://www.twitter.com/ckwilcox/" target="_blank">
 										<span class="background"></span>
 										<span class="content">
 											<img src="images/networks/twitter.png" alt="twitter"/>
